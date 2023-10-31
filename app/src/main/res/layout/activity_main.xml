@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="0 "/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            >
+
+            <Button
+                style="@style/rounded_button_style"
+                android:text="asda"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+
+                />
+
+            <Button
+                style="@style/rounded_button_style"
+                android:foreground="@drawable/light_grey_button"/>
+
+            <Button
+                style="@style/rounded_button_style"
+                android:foreground="@drawable/light_grey_button"/>
+
+            <Button
+                style="@style/rounded_button_style"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <Button
+                style="@style/rounded_button_style"
+                android:foreground="@drawable/grey_button"/>
+
+            <Button style="@style/rounded_button_style"
+                android:foreground="@drawable/grey_button"/>
+
+            <Button style="@style/rounded_button_style"
+                android:foreground="@drawable/grey_button"/>
+
+            <Button style="@style/rounded_button_style" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            >
+
+            <Button
+                style="@style/rounded_button_style"
+                android:foreground="@drawable/grey_button"/>
+
+            <Button
+                style="@style/rounded_button_style"
+                android:foreground="@drawable/grey_button"/>
+
+            <Button
+                style="@style/rounded_button_style"
+                android:foreground="@drawable/grey_button"/>
+
+            <Button
+                style="@style/rounded_button_style"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            >
+
+            <Button
+                style="@style/rounded_button_style"
+                android:foreground="@drawable/grey_button"/>
+
+            <Button
+                style="@style/rounded_button_style"
+                android:foreground="@drawable/grey_button"/>
+
+            <Button
+                style="@style/rounded_button_style"
+                android:foreground="@drawable/grey_button"/>
+
+            <Button
+                style="@style/rounded_button_style"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <Button
+                    style="@style/rounded_button_style"
+                    android:foreground="@drawable/zero_button"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <Button
+                    style="@style/rounded_button_style"
+                    android:foreground="@drawable/grey_button"/>
+
+                <Button
+                    style="@style/rounded_button_style"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
